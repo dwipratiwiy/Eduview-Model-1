@@ -9,7 +9,7 @@ Cheating in education, whether in exams or assignments, has become a major issue
 
 ## Workplan
 
-![Detection in Clasroom](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/dataset%20split%20class.png)
+![Detection in Clasroom](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/workplan.png)
 
 ## Dataset
 Our dataset originates from Roboflow. We redistributed it into train (80%), validation (10%), and test (10%) sets. Augmentations include horizontal flip, brightness adjustment, and blur, with preprocessing resizing images to 640x640 pixels. The dataset contains six classes.
