@@ -11,14 +11,17 @@ Cheating in education, whether in exams or assignments, has become a major issue
 
 ## Dataset
 Our dataset originates from Roboflow. We redistributed it into train (80%), validation (10%), and test (10%) sets. Augmentations include horizontal flip, brightness adjustment, and blur, with preprocessing resizing images to 640x640 pixels. The dataset contains six classes.
+
 ![dataset class](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/dataset%20split%20class.png)
 
 ## Training
 The training process was conducted using four YOLO versions: YOLOv8, YOLOv9, YOLOv10, and YOLOv11, each trained for 30 epochs with a learning rate (LR) of 0.001 using the AdamW optimizer. A comparison was performed to determine the best YOLO version based on accuracy metrics, including mAP50, mAP50-95, precision, recall, and loss functions (classification loss and bounding box loss).
+
 ![perbandingan metriks](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/perbandingan%20matrik%20evaluasi.png)
 
 ## Result
 From the comparison results, YOLOv8 was determined to be the best model. The evaluation and testing phases were then conducted using the test dataset.
+
 ![result](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/results.png)
 
 ## Deployment
