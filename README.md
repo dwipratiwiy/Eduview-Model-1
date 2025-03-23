@@ -21,7 +21,7 @@ The training process was conducted using four YOLO versions: YOLOv8, YOLOv9, YOL
 
 ## Result
 From the comparison results, YOLOv8 was determined to be the best model. The evaluation and testing phases were then conducted using the test dataset.
-![result](./images/result.png)
+![result](./images/results.png)
 
 ## Deployment
 The model was then saved in **.pt** format and deployed using **Reflex**.
@@ -35,6 +35,7 @@ The model was then saved in **.pt** format and deployed using **Reflex**.
 
 ## Reference
 [Cheating Detection Through CCTV using YOLOv7](https://eprints.unram.ac.id/44273/2/Publikasi%20Ilmiah%20%282nd%20MIMSE%202023%29%20-%20Mizanul%20Ridho%20Aohana.pdf)
+
 [Cheating Detection in Examinations Using Improved
 YOLOv8 with Attention Mechanism](https://thescipub.com/pdf/jcssp.2024.1668.1680.pdf)
 
