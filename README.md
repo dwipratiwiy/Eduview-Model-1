@@ -2,7 +2,7 @@
 
 #  Real-Time Object Detection for Student Cheating in a Classroom Using YOLO
 
-![Detection in Clasroom](./images/detection image.jpeg)
+![Detection in Clasroom](/images/detection image.jpeg)
 
 ## Problem
 Cheating in education, whether in exams or assignments, has become a major issue that undermines the quality of education in Indonesia. It prevents students from truly understanding the material and weakens both academic integrity and educational standards. According to reports from The Guardian and research by the International Center for Academic Integrity (ICAI), around 70% of students worldwide have engaged in academic dishonesty. Several factors contribute to this behavior, including lack of exam preparation, the desire to achieve high grades through dishonest means, inadequate supervision, and the inability of teachers or lecturers to detect cheating during exams. To address this issue, we have developed EduView, an AI-powered system that detects cheating behavior in real time within classrooms. This system aligns with SDG 4, which aims to ensure inclusive and equitable quality education and promote lifelong learning opportunities. Education quality is not only measured by infrastructure but also by strengthening human resources and fostering academic integrity.
@@ -13,15 +13,15 @@ Cheating in education, whether in exams or assignments, has become a major issue
 
 ## Dataset
 Our dataset originates from Roboflow. We redistributed it into train (80%), validation (10%), and test (10%) sets. Augmentations include horizontal flip, brightness adjustment, and blur, with preprocessing resizing images to 640x640 pixels. The dataset contains six classes.
-![dataset class](./images/dataset split class.png)
+![dataset class](/images/dataset split class.png)
 
 ## Training
 The training process was conducted using four YOLO versions: YOLOv8, YOLOv9, YOLOv10, and YOLOv11, each trained for 30 epochs with a learning rate (LR) of 0.001 using the AdamW optimizer. A comparison was performed to determine the best YOLO version based on accuracy metrics, including mAP50, mAP50-95, precision, recall, and loss functions (classification loss and bounding box loss).
-![perbandingan metriks](./images/perbandingan matrik evaluasi.png)
+![perbandingan metriks](images/perbandingan matrik evaluasi.png)
 
 ## Result
 From the comparison results, YOLOv8 was determined to be the best model. The evaluation and testing phases were then conducted using the test dataset.
-![result](./images/results.png)
+![result](/images/results.png)
 
 ## Deployment
 The model was then saved in **.pt** format and deployed using **Reflex**.
