@@ -1,5 +1,3 @@
-# Eduview-Model-1
-
 #  Real-Time Object Detection for Student Cheating in a Classroom Using YOLO
 
 ![Detection in Clasroom](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/detection%20image.jpeg)
