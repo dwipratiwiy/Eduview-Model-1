@@ -5,7 +5,7 @@ import os
 import tempfile
 from ultralytics import YOLO
 
-# Fungsi untuk memuat model YOLO (gunakan cache agar tidak loading terus)
+
 @st.cache_resource
 def load_model():
     model_path = "/Users/tokyo/Downloads/runs/detect/yolov11/weights/best.pt"
