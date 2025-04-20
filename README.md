@@ -10,7 +10,7 @@ Cheating in education, whether in exams or assignments, has become a major issue
 ![Detection in Clasroom](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/workplan.png)
 
 ## Dataset
-Our dataset originates from Roboflow. We redistributed it into train (80%), validation (10%), and test (10%) sets. Augmentations include horizontal flip, brightness adjustment, and blur, with preprocessing resizing images to 640x640 pixels. The dataset contains six classes.
+Our dataset originates from Roboflow. We redistributed it into train (80%), validation (10%), and test (10%) sets. Augmentations include horizontal flip, brightness adjustment, and blur, with preprocessing resizing images to 640x640 pixels. The dataset contains six classes. ![link dataset](https://app.roboflow.com/deeplearning-yuw2g/yolov8-wvi7o-0cptf/2)
 
 ![dataset class](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/dataset%20split%20class.png)
 
@@ -25,7 +25,71 @@ From the comparison results, YOLOv8 was determined to be the best model. The eva
 ![result](https://github.com/dwipratiwiy/Eduview-Model-1/blob/main/images/results.png)
 
 ## Deployment
-The model was then saved in **.pt** format and deployed using **Reflex**.
+## Deployment
+
+Follow these steps to set up and run the EduView project on your local environment.
+
+### 1. **Clone the Repository from GitHub**
+
+To clone the repository, open the terminal or command prompt and run the following command:
+
+```bash
+git clone https://github.com/dwipratiwiy/Eduview-Model-1.git
+```
+
+After cloning, navigate to the project folder:
+
+```bash
+cd Eduview-Model-1
+```
+
+### 2. **Create a Virtual Environment (Optional)**
+
+It's recommended to create a **virtual environment** to isolate the dependencies for this project. Follow these steps to create one.
+
+Using `venv`:
+
+```bash
+python3 -m venv env
+```
+
+Using `conda` (optional):
+
+```bash
+conda create --name eduview-env python=3.12
+conda activate eduview-env
+```
+
+Activate the virtual environment according to your operating system.
+
+On Windows:
+
+```bash
+env\Scripts\activate
+```
+
+On macOS/Linux:
+
+```bash
+source env/bin/activate
+```
+
+### 3. **Install Required Dependencies**
+
+Install all the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. **Run the Streamlit Application**
+
+Once all dependencies are installed, run the **Streamlit** application with the following command:
+
+```bash
+streamlit run app.py
+```
+
 
 ## Team Members
 | No | NIM | Name |
