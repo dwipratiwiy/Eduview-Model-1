@@ -52,13 +52,6 @@ Using `venv`:
 python3 -m venv env
 ```
 
-Using `conda` (optional):
-
-```bash
-conda create --name eduview-env python=3.12
-conda activate eduview-env
-```
-
 Activate the virtual environment according to your operating system.
 
 On Windows:
